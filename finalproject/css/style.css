@@ -176,6 +176,10 @@ p.bottom {
     padding-top: 40px;
     border-bottom: dotted;
 }
+p.top {
+    padding-top: 40px;
+    border-top: dotted;
+}
 
 .cards {
     display: flex;
@@ -193,7 +197,7 @@ a {
     flex-direction: column;
     background-color: pink;
     border-radius: 5px;
-   
+
 
 
 }
