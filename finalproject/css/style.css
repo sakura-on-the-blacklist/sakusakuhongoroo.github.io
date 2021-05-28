@@ -1,6 +1,15 @@
 * {
+    box-sizing: border-box;
     padding: 0;
     margin: 0;
+}
+
+body {
+    background: rgba(66, 202, 157, 0.491);
+}
+
+::before, ::after {
+    box-sizing: inherit;
 }
 
 .top-page {
@@ -38,9 +47,9 @@ header {
         font-family: 'Flavors', cursive;
     }
 
-    body {
+    /* body {
         background-color: rgba(66, 202, 157, 0.491);
-    }
+    } */
 
     .main-visual h2 {
         font-size: 13px;
